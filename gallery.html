@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTPFXLBKLL"></script>
+
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VTPFXLBKLL');
+
+  $(function() {
+  $(".img-w").each(function() {
+    $(this).wrap("<div class='img-c'></div>")
+    let imgSrc = $(this).find("img").attr("src");
+     $(this).css('background-image', 'url(' + imgSrc + ')');
+  })
+            
+  
+  $(".img-c").click(function() {
+    let w = $(this).outerWidth()
+    let h = $(this).outerHeight()
+    let x = $(this).offset().left
+    let y = $(this).offset().top
+    
+    
+    $(".active").not($(this)).remove()
+    let copy = $(this).clone();
+    copy.insertAfter($(this)).height(h).width(w).delay(500).addClass("active")
+    $(".active").css('top', y - 8);
+    $(".active").css('left', x - 8);
+    
+      setTimeout(function() {
+    copy.addClass("positioned")
+  }, 0)
+    
+  }) 
+  
+  
+
+  
+})
+
+$(document).on("click", ".img-c.active", function() {
+  let copy = $(this)
+  copy.removeClass("positioned active").addClass("postactive")
+  setTimeout(function() {
+    copy.remove();
+  }, 500)
+})
+</script>
+    <title>Sanatan Hindu Cultural Society, Sutton</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,500">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css" />
+
+
+
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+
+
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <header class="section page-header">
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="170px" data-xl-stick-up-offset="170px" data-xxl-stick-up-offset="170px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+            <div class="rd-navbar-aside-outer">
+              <div class="rd-navbar-aside">
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!--RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!--RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/SHCS-3.png" alt="" /></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <div class="rd-navbar-nav-wrap">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About SHCS</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="events.html">Events</a></li>
+                   <li class="rd-nav-item"><a class="rd-nav-link" href="donate.html">Donate</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="chants.html">Chants</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="news.html">News</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <br><Br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container">
+
+
+        <div class="image-video">
+            <div class="image-video__title">GALLERY</div>
+            <div class="image-video__player">
+                <div class="has-desktop-carousel">
+
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/malg22kf/vb1854431_8436-001-l-r-plots-7-to-10_-langley-court_-beckenham_-cala-homes-south-home-counties.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/malg22kf/vb1854431_8436-001-l-r-plots-7-to-10_-langley-court_-beckenham_-cala-homes-south-home-counties.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/malg22kf/vb1854431_8436-001-l-r-plots-7-to-10_-langley-court_-beckenham_-cala-homes-south-home-counties.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/malg22kf/vb1854431_8436-001-l-r-plots-7-to-10_-langley-court_-beckenham_-cala-homes-south-home-counties.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/malg22kf/vb1854431_8436-001-l-r-plots-7-to-10_-langley-court_-beckenham_-cala-homes-south-home-counties.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/0voj3zij/vb1823428_8361_12_plot4_langley_court_beckenham_kitchen_dining.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/0voj3zij/vb1823428_8361_12_plot4_langley_court_beckenham_kitchen_dining.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/0voj3zij/vb1823428_8361_12_plot4_langley_court_beckenham_kitchen_dining.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/0voj3zij/vb1823428_8361_12_plot4_langley_court_beckenham_kitchen_dining.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/0voj3zij/vb1823428_8361_12_plot4_langley_court_beckenham_kitchen_dining.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/dyrlscao/vb1823737_8361_19_plot4_langley_court_beckenham_bedroom1.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/dyrlscao/vb1823737_8361_19_plot4_langley_court_beckenham_bedroom1.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/dyrlscao/vb1823737_8361_19_plot4_langley_court_beckenham_bedroom1.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/dyrlscao/vb1823737_8361_19_plot4_langley_court_beckenham_bedroom1.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/dyrlscao/vb1823737_8361_19_plot4_langley_court_beckenham_bedroom1.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/i3fjvr2l/vb1823427_8361_10_plot4_langley_court_beckenham_sitting_room.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/i3fjvr2l/vb1823427_8361_10_plot4_langley_court_beckenham_sitting_room.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/i3fjvr2l/vb1823427_8361_10_plot4_langley_court_beckenham_sitting_room.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/i3fjvr2l/vb1823427_8361_10_plot4_langley_court_beckenham_sitting_room.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/i3fjvr2l/vb1823427_8361_10_plot4_langley_court_beckenham_sitting_room.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/4iebcw13/vb1823770_8361_71_plot5_langley_court_beckenham_bedroom1_ensuite.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/4iebcw13/vb1823770_8361_71_plot5_langley_court_beckenham_bedroom1_ensuite.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/4iebcw13/vb1823770_8361_71_plot5_langley_court_beckenham_bedroom1_ensuite.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/4iebcw13/vb1823770_8361_71_plot5_langley_court_beckenham_bedroom1_ensuite.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/4iebcw13/vb1823770_8361_71_plot5_langley_court_beckenham_bedroom1_ensuite.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/camlaw0g/vb1527134_7727-017_calashc__localarea__beckenham_.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/camlaw0g/vb1527134_7727-017_calashc__localarea__beckenham_.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/camlaw0g/vb1527134_7727-017_calashc__localarea__beckenham_.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/camlaw0g/vb1527134_7727-017_calashc__localarea__beckenham_.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/camlaw0g/vb1527134_7727-017_calashc__localarea__beckenham_.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/c3cfndil/vb1798208_plot_191-192_cgi_hr.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/c3cfndil/vb1798208_plot_191-192_cgi_hr.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/c3cfndil/vb1798208_plot_191-192_cgi_hr.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/c3cfndil/vb1798208_plot_191-192_cgi_hr.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/c3cfndil/vb1798208_plot_191-192_cgi_hr.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/hmzn4fzr/vb1823442_8361_63_plot5_langley_court_beckenham_kitchen_dining.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/hmzn4fzr/vb1823442_8361_63_plot5_langley_court_beckenham_kitchen_dining.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/hmzn4fzr/vb1823442_8361_63_plot5_langley_court_beckenham_kitchen_dining.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/hmzn4fzr/vb1823442_8361_63_plot5_langley_court_beckenham_kitchen_dining.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/hmzn4fzr/vb1823442_8361_63_plot5_langley_court_beckenham_kitchen_dining.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/0zblopnz/vb1823440_8361_60_plot5_langley_court_beckenham_sitting_room.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/0zblopnz/vb1823440_8361_60_plot5_langley_court_beckenham_sitting_room.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/0zblopnz/vb1823440_8361_60_plot5_langley_court_beckenham_sitting_room.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/0zblopnz/vb1823440_8361_60_plot5_langley_court_beckenham_sitting_room.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/0zblopnz/vb1823440_8361_60_plot5_langley_court_beckenham_sitting_room.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/fyjnfwkh/vb1823780_8361_91_plot5_langley_court_beckenham_detail.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/fyjnfwkh/vb1823780_8361_91_plot5_langley_court_beckenham_detail.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/fyjnfwkh/vb1823780_8361_91_plot5_langley_court_beckenham_detail.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/fyjnfwkh/vb1823780_8361_91_plot5_langley_court_beckenham_detail.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/fyjnfwkh/vb1823780_8361_91_plot5_langley_court_beckenham_detail.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/2dqpwygx/vb1823777_8361_78_plot5_langley_court_beckenham_bedroom4.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/2dqpwygx/vb1823777_8361_78_plot5_langley_court_beckenham_bedroom4.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/2dqpwygx/vb1823777_8361_78_plot5_langley_court_beckenham_bedroom4.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/2dqpwygx/vb1823777_8361_78_plot5_langley_court_beckenham_bedroom4.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/2dqpwygx/vb1823777_8361_78_plot5_langley_court_beckenham_bedroom4.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/5imh1fo1/vb1823778_8361_79_plot5_langley_court_beckenham_bathroom.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/5imh1fo1/vb1823778_8361_79_plot5_langley_court_beckenham_bathroom.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/5imh1fo1/vb1823778_8361_79_plot5_langley_court_beckenham_bathroom.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/5imh1fo1/vb1823778_8361_79_plot5_langley_court_beckenham_bathroom.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/5imh1fo1/vb1823778_8361_79_plot5_langley_court_beckenham_bathroom.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/cxxfxbwe/vb1527169_7727-037_calashc__localarea__beckenham_.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/cxxfxbwe/vb1527169_7727-037_calashc__localarea__beckenham_.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/cxxfxbwe/vb1527169_7727-037_calashc__localarea__beckenham_.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/cxxfxbwe/vb1527169_7727-037_calashc__localarea__beckenham_.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/cxxfxbwe/vb1527169_7727-037_calashc__localarea__beckenham_.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/g1qbw12k/vb1527108_7727-004_calashc__localarea__beckenham_.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/g1qbw12k/vb1527108_7727-004_calashc__localarea__beckenham_.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/g1qbw12k/vb1527108_7727-004_calashc__localarea__beckenham_.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/g1qbw12k/vb1527108_7727-004_calashc__localarea__beckenham_.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/g1qbw12k/vb1527108_7727-004_calashc__localarea__beckenham_.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/lg1nvyyc/vb1824388_8361_50_plot4_langley_court_beckenham_rear_garden.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/lg1nvyyc/vb1824388_8361_50_plot4_langley_court_beckenham_rear_garden.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/lg1nvyyc/vb1824388_8361_50_plot4_langley_court_beckenham_rear_garden.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/lg1nvyyc/vb1824388_8361_50_plot4_langley_court_beckenham_rear_garden.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/lg1nvyyc/vb1824388_8361_50_plot4_langley_court_beckenham_rear_garden.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+                            <div class="image-video__item">
+                                <div class="image-video__item-image aspect-ratio-16-9">
+    <img data-flickity-lazyload-srcset="/media/qebbr4xw/vb1849831_8361_76_plot5_langley_court_beckenham_bedroom3.jpg?width=576&amp;height=324&quality=70&mode=crop 576w,
+										/media/qebbr4xw/vb1849831_8361_76_plot5_langley_court_beckenham_bedroom3.jpg?width=960&amp;height=540&quality=70&mode=crop 960w,
+										/media/qebbr4xw/vb1849831_8361_76_plot5_langley_court_beckenham_bedroom3.jpg?width=1344&amp;height=756&quality=70&mode=crop 1344w,
+										/media/qebbr4xw/vb1849831_8361_76_plot5_langley_court_beckenham_bedroom3.jpg?width=1800&amp;height=1012&quality=70&mode=crop 1800w"
+         sizes="(max-width: 576px) 576px, (max-width: 960px) 960px, (max-width: 1344px) 1344px, (min-width: 1345px) 1800px"
+         data-flickity-lazyload-src="/media/qebbr4xw/vb1849831_8361_76_plot5_langley_court_beckenham_bedroom3.jpg?width=1800&amp;height=1012&quality=70&mode=crop"
+         alt="" />
+                                </div>
+                            </div>
+
+                </div>
+            <div class="image-video__disclaimer">Showhome photography featured from Langley Court, Beckenham. Images are 
+                for indicative purposes only and are not to be presumed to be entirely accurate. Showhome images feature fittings, décor, flooring, soft furnishing
+                s and landscaping that are not included as standard in a CALA home. Images are used to suggest possible finishes that can be achieved in your home at an additional cost. Please consu
+                lt a Sales Representative for further details. Some images have been enhanced.</div>
+
+
+    </div>
+         <!--Contacts-->
+      <section class="section section-lg bg-gray-700">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-lg-4">
+              <div class="row row-30">
+
+                <div class="col-sm-6 col-lg-12 wow fadeInRight" data-wow-delay=".05s">
+                  <article class="info-classic align-items-center">
+                    <div class="unit unit-spacing-md align-items-center flex-column flex-md-row text-center text-md-left">
+                      <div class="unit-left">
+                        <div class="info-classic-icon fa-envelope"></div>
+                      </div>
+                      <div class="unit-body"><a class="info-classic-link" href="mailto:#">info@sanatan-hcs.org</a></div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row row-30">
+
+                <div class="col-sm-6 col-lg-12 wow fadeInRight" data-wow-delay=".05s">
+                  <article class="info-classic align-items-center">
+                    <div class="unit unit-spacing-md align-items-center flex-column flex-md-row text-center text-md-left">
+                      <div class="unit-left">
+                        <div class="info-classic-icon fa-facebook"></div>
+                      </div>
+                      <div class="unit-body"><a class="info-classic-link" href="https://www.facebook.com/shcssutton">Follow on Facebook</a></div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row row-30">
+
+                <div class="col-sm-6 col-lg-12 wow fadeInRight" data-wow-delay=".1s">
+                  <article class="info-classic align-items-center">
+                    <div class="unit unit-spacing-md align-items-center flex-column flex-md-row text-center text-md-left">
+                      <div class="unit-left">
+                        <div class="info-classic-icon fa-twitter"></div>
+                      </div>
+                      <div class="unit-body"><a class="info-classic-link" href="#">Follow on Twitter</a></div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="section footer-classic">
+        <div class="container">
+          <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Sanatan Hindu Cultural Society, Sutton</span><span>.&nbsp;</span><a href="privacy.html">Privacy Policy</a></p>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/vendors.js"></script>
+    <script src="js/gallery.js"></script>
+
+  </body>
+</html>
+
+
