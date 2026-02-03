@@ -23,19 +23,19 @@
   <header class="header">
     <div class="container">
       <div class="header-container">
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank"><img src="images/SHCS-3.png" alt="SHCS Logo" class="header-logo"></a>
+        <a href="index.html"><img src="images/SHCS-3.png" alt="SHCS Logo" class="header-logo"></a>
         <nav>
           <button class="mobile-menu-toggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
           </button>
           <ul class="nav-menu">
-            <li><a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="nav-link">Home</a></li>
-            <li><a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="nav-link">About SHCS</a></li>
-            <li><a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="nav-link">Events</a></li>
-            <li><a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="nav-link">Membership</a></li>
-            <li><a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="nav-link">Donate</a></li>
-            <li><a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="nav-link">Chants</a></li>
-            <li><a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="nav-link">News</a></li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About SHCS</a></li>
+            <li><a href="events.html" class="nav-link">Events</a></li>
+            <li><a href="membership.html" class="nav-link">Membership</a></li>
+            <li><a href="donate.html" class="nav-link">Donate</a></li>
+            <li><a href="chants.html" class="nav-link">Chants</a></li>
+            <li><a href="news.html" class="nav-link">News</a></li>
           </ul>
         </nav>
       </div>
@@ -53,13 +53,6 @@
 
   <section class="section">
     <div class="container">
-      <!-- Info Banner -->
-      <div style="max-width: 800px; margin: 0 auto var(--space-8); padding: var(--space-4); background: var(--color-primary-light); border-left: 4px solid var(--color-primary); border-radius: var(--radius-md);">
-        <p style="margin: 0; color: var(--color-charcoal);">
-          📥 <strong>Click any chant below</strong> to view or download the complete Aarti & Bhajans PDF collection. All chants are available in one comprehensive PDF document.
-        </p>
-      </div>
-
       <!-- Search Bar -->
       <div style="max-width: 600px; margin: 0 auto var(--space-8);">
         <input
@@ -82,16 +75,16 @@
       <!-- Chants Grid -->
       <div id="chantsGrid" class="grid grid-3">
         <!-- Aartis -->
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="aarti" style="text-decoration: none; color: inherit;">
+        <div class="card chant-item" data-category="aarti" style="cursor: pointer;" onclick="openChantModal('om-jai-jagdish')">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🙏</div>
             <h3 class="card-title">Om Jai Jagdish</h3>
             <p class="devanagari" style="color: var(--color-primary); margin-bottom: var(--space-3);">ॐ जय जगदीश हरे</p>
             <span class="badge">Aarti</span>
           </div>
-        </a>
+        </div>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="aarti" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="aarti" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🙏</div>
             <h3 class="card-title">Hanuman Ji Ki Aarti</h3>
@@ -100,7 +93,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="aarti" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="aarti" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🙏</div>
             <h3 class="card-title">Shri Ramayan Ji Ki Aarti</h3>
@@ -110,7 +103,7 @@
         </a>
 
         <!-- Stotrams & Sahasranamas -->
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Shri Vishnu Sahasranama</h3>
@@ -119,7 +112,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Shri Lalita Sahasranama</h3>
@@ -128,7 +121,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Ram Raksha Stotram</h3>
@@ -137,7 +130,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Mahishasura Mardini Stotram</h3>
@@ -146,7 +139,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Shri Ram Stuti</h3>
@@ -155,7 +148,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Lingashtakam</h3>
@@ -164,7 +157,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Kala Bhairavashtakam</h3>
@@ -174,16 +167,16 @@
         </a>
 
         <!-- Chalisa & Ashtak -->
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <div class="card chant-item" data-category="stotram" style="cursor: pointer;" onclick="openChantModal('hanuman-chalisa')">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Shri Hanuman Chalisa</h3>
             <p class="devanagari" style="color: var(--color-primary); margin-bottom: var(--space-3);">श्री हनुमान चालीसा</p>
             <span class="badge">Stotram</span>
           </div>
-        </a>
+        </div>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📿</div>
             <h3 class="card-title">Sankatmochan Hanuman Ashtak</h3>
@@ -193,26 +186,26 @@
         </a>
 
         <!-- Mantras -->
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="mantra" style="text-decoration: none; color: inherit;">
+        <div class="card chant-item" data-category="mantra" style="cursor: pointer;" onclick="openChantModal('gayatri-mantra')">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🕉️</div>
             <h3 class="card-title">Gayatri Mantra</h3>
             <p class="devanagari" style="color: var(--color-primary); margin-bottom: var(--space-3);">गायत्री मंत्र</p>
             <span class="badge">Mantra</span>
           </div>
-        </a>
+        </div>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="mantra" style="text-decoration: none; color: inherit;">
+        <div class="card chant-item" data-category="mantra" style="cursor: pointer;" onclick="openChantModal('mahamritunjaya')">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🕉️</div>
             <h3 class="card-title">Mahamrutunjaya Mantra</h3>
             <p class="devanagari" style="color: var(--color-primary); margin-bottom: var(--space-3);">महामृत्युंजय मंत्र</p>
             <span class="badge">Mantra</span>
           </div>
-        </a>
+        </div>
 
         <!-- Bhajans -->
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="bhajan" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="bhajan" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🎵</div>
             <h3 class="card-title">Bhor Bhai Din Chad Gaya</h3>
@@ -221,7 +214,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="bhajan" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="bhajan" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🎵</div>
             <h3 class="card-title">Ganesh Bhajan & Aarti</h3>
@@ -230,7 +223,7 @@
           </div>
         </a>
 
-        <a href="shivratri_hindi.html" class="card chant-item" data-category="bhajan" style="text-decoration: none; color: inherit;">
+        <a href="shivratri_hindi.html" class="card chant-item" data-category="bhajan" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🎵</div>
             <h3 class="card-title">Shivratri Bhajans</h3>
@@ -239,7 +232,7 @@
           </div>
         </a>
 
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="bhajan" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="bhajan" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">🎵</div>
             <h3 class="card-title">Jai Ho</h3>
@@ -249,7 +242,7 @@
         </a>
 
         <!-- Sunderkand -->
-        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="text-decoration: none; color: inherit;">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="card chant-item" data-category="stotram" style="cursor: pointer;">
           <div class="card-content">
             <div style="font-size: 2rem; margin-bottom: var(--space-3);">📖</div>
             <h3 class="card-title">Sunderkand</h3>
@@ -281,12 +274,12 @@
         <div class="footer-section">
           <h4>Quick Links</h4>
           <div class="footer-links">
-            <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="footer-link">About SHCS</a>
-            <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="footer-link">Events</a>
-            <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="footer-link">Membership</a>
-            <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="footer-link">Donate</a>
-            <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="footer-link">Chants</a>
-            <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="footer-link">News</a>
+            <a href="about.html" class="footer-link">About SHCS</a>
+            <a href="events.html" class="footer-link">Events</a>
+            <a href="membership.html" class="footer-link">Membership</a>
+            <a href="donate.html" class="footer-link">Donate</a>
+            <a href="chants.html" class="footer-link">Chants</a>
+            <a href="news.html" class="footer-link">News</a>
           </div>
         </div>
         <div class="footer-section">
@@ -303,7 +296,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; <span class="copyright-year">2024</span> Sanatan Hindu Cultural Society, Sutton. All rights reserved. | <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" style="color: var(--color-gray-300);">Privacy Policy</a></p>
+        <p>&copy; <span class="copyright-year">2024</span> Sanatan Hindu Cultural Society, Sutton. All rights reserved. | <a href="privacy.html" style="color: var(--color-gray-300);">Privacy Policy</a></p>
       </div>
     </div>
   </footer>
@@ -318,6 +311,128 @@
     </svg>
   </a>
 
+  <!-- Chant Modal -->
+  <div id="chantModal" class="chant-modal">
+    <div class="chant-modal-content">
+      <div class="chant-modal-header">
+        <button class="chant-modal-close" onclick="closeChantModal()">&times;</button>
+        <h2 class="chant-modal-title" id="modalTitle">Chant Title</h2>
+        <h3 class="chant-modal-title-devanagari" id="modalTitleDevanagari">चालीसा</h3>
+        <span class="chant-modal-category" id="modalCategory">Category</span>
+      </div>
+
+      <div class="chant-modal-body">
+        <!-- Audio Controls -->
+        <div class="chant-modal-audio-controls">
+          <span class="audio-icon">🕉️</span>
+          <button id="audioToggle" onclick="toggleAudio()">
+            <span id="audioButtonText">Play Om Chanting</span>
+          </button>
+          <span style="color: var(--color-gray-600); font-size: var(--text-sm);" id="audioStatus">
+            Peaceful background meditation
+          </span>
+        </div>
+
+        <div class="chant-content" id="modalContent">
+          Chant content will appear here
+        </div>
+      </div>
+
+      <div class="chant-modal-footer">
+        <a href="pdfs/Aarti_Bhajans.pdf" target="_blank" class="btn btn-primary">
+          📥 Download PDF
+        </a>
+        <button onclick="closeChantModal()" class="btn btn-outline">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background Audio (Hidden) -->
+  <audio id="bgAudio" loop preload="auto">
+    <source src="audio/om-chanting.mp3" type="audio/mpeg">
+    <source src="audio/om-chanting.ogg" type="audio/ogg">
+  </audio>
+
+  <script src="js/chants-data.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    // Chant Modal Functions
+    let audioPlaying = false;
+    const bgAudio = document.getElementById('bgAudio');
+
+    function openChantModal(chantId) {
+      const chant = chantsData[chantId];
+      if (!chant) {
+        // Fallback: open PDF if chant data not found
+        window.open('pdfs/Aarti_Bhajans.pdf', '_blank');
+        return;
+      }
+
+      // Populate modal
+      document.getElementById('modalTitle').textContent = chant.title;
+      document.getElementById('modalTitleDevanagari').textContent = chant.titleDevanagari;
+      document.getElementById('modalCategory').textContent = chant.category;
+      document.getElementById('modalContent').textContent = chant.content;
+
+      // Show modal
+      document.getElementById('chantModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      // Reset audio
+      stopAudio();
+    }
+
+    function closeChantModal() {
+      document.getElementById('chantModal').classList.remove('active');
+      document.body.style.overflow = '';
+      stopAudio();
+    }
+
+    function toggleAudio() {
+      if (audioPlaying) {
+        stopAudio();
+      } else {
+        playAudio();
+      }
+    }
+
+    function playAudio() {
+      bgAudio.play().then(() => {
+        audioPlaying = true;
+        document.getElementById('audioButtonText').textContent = 'Pause Om Chanting';
+        document.getElementById('audioToggle').classList.add('playing');
+        document.getElementById('audioStatus').textContent = '🔊 Playing...';
+      }).catch(error => {
+        // Audio file not found or error
+        document.getElementById('audioStatus').textContent = '⚠️ Audio file not available';
+        console.log('Audio file not found. Add om-chanting.mp3 to audio/ folder.');
+      });
+    }
+
+    function stopAudio() {
+      bgAudio.pause();
+      bgAudio.currentTime = 0;
+      audioPlaying = false;
+      document.getElementById('audioButtonText').textContent = 'Play Om Chanting';
+      document.getElementById('audioToggle').classList.remove('playing');
+      document.getElementById('audioStatus').textContent = 'Peaceful background meditation';
+    }
+
+    // Close modal on outside click
+    document.getElementById('chantModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeChantModal();
+      }
+    });
+
+    // Close modal on ESC key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeChantModal();
+      }
+    });
+  </script>
 </body>
 </html>

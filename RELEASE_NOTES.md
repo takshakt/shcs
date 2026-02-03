@@ -1,0 +1,194 @@
+# SHCS Website - Release Notes
+
+All notable changes to the Sanatan Hindu Cultural Society website will be documented in this file.
+
+---
+
+## [1.2.0] - 2026-02-03
+
+### 🚨 Added - Urgent Mandir Appeal
+
+**Major Addition:** Complete Mandir fundraising appeal system
+
+#### Landing Page Banner
+- Added prominent urgent appeal section on [index.html](index.html) after hero
+- Visual gradient background (orange theme)
+- Key statistics display: £500k target | £350k+ pledged | £150k gap
+- Bidding deadline: 24 February 2026
+- Three action buttons: View Appeal, Make Pledge, Donate
+
+#### New Page: mandir-appeal.html
+- Comprehensive 22KB dedicated appeal page
+- Sections:
+  - Urgent banner at top with deadline
+  - Key statistics cards (Target, Pledged, Gap)
+  - Property information (near Carshalton Beeches station)
+  - What has been achieved (charity status, property identified, pledges)
+  - What needs to be achieved (£150k funding gap)
+  - Donation options (£500+ with Gift Aid benefits)
+  - Interest-free loan options (£5000+, 6-8 year repayment)
+  - Family name engraving benefits for donors/lenders
+  - Mandir plan with 10 planned deities
+  - Comprehensive FAQ section
+  - Bank details and contact information
+  - Legal disclaimer
+- Links to external pledge form: https://tinyurl.com/shcsmandir
+- All information extracted from official appeal PDF
+
+**Impact:** Provides urgent fundraising visibility to help close £150k gap before Feb 24, 2026 deadline
+
+---
+
+### 📿 Fixed - Chants Page
+
+**Problem:** All 19 chant cards linked to non-existent HTML files, causing 404 errors
+
+#### Solution Implemented
+- Created `pdfs/` folder structure
+- Copied Aarti_Bhajans.pdf (280KB) from old site backup
+- Updated all 33 chant card links to open comprehensive PDF
+- Added informational banner explaining PDF download system
+- Maintained search and filter functionality
+
+**Impact:** Users can now access all chants via single comprehensive PDF download
+
+---
+
+### 📋 Added - Additional Pages
+
+#### membershipform.html
+- Modernized Google Forms embedded membership registration
+- Updated design to match new site theme
+- Added WhatsApp button and modern header/footer
+- Bank details reminder section
+
+#### memberlist.html
+- List of 150+ active lifetime members in grid layout
+- Modernized design with responsive columns
+- Call-to-action to join membership
+
+#### privacy.html
+- Complete privacy policy page
+- GDPR-compliant information collection disclosure
+- Cookie policy, data sharing, security sections
+- Modern layout with clear sectioning
+
+**Impact:** Complete site functionality with all referenced pages working
+
+---
+
+### 📄 Documentation
+
+- Created FORMS_GUIDE.md explaining contact and membership form behavior
+- Updated SITE_MIGRATION_COMPLETE.md with 11-page site structure
+- Consolidated all standalone update documents into this RELEASE_NOTES.md
+
+---
+
+## [1.1.0] - 2026-02-03
+
+### ✅ Initial Migration Complete
+
+**Major Achievement:** Successfully migrated from old 54-page HTML site to modern 7-page design
+
+#### Core Pages Created
+1. index.html - Modern landing page with hero, news, events, contact form
+2. about.html - Vision, mission, objectives
+3. events.html - Weekly satsang, 9 festivals, past events gallery
+4. membership.html - Benefits, pricing (£100 lifetime), signup process
+5. donate.html - Bank transfer and PayPal donation options
+6. news.html - 3 full news articles (Holi 2024, Dussehra 2023, COVID 2021)
+7. chants.html - 19 chants with search and category filters
+
+#### CSS Architecture
+- reset.css - Modern CSS reset
+- variables.css - Design tokens (colors, spacing, typography)
+- base.css - Base styles and utilities
+- components.css - Reusable component styles
+
+#### Features Implemented
+- Modern minimalistic design (orange brand color #FF6600)
+- Fully responsive (mobile, tablet, desktop breakpoints)
+- Floating WhatsApp button on all pages (+447443801223)
+- Mobile hamburger menu with smooth transitions
+- Contact form with client-side validation (mailto: submission)
+- Chants search and filter functionality
+- Google Analytics integration (G-VTPFXLBKLL)
+- Social media links (Facebook)
+
+#### Technical Stack
+- Pure HTML/CSS/JavaScript (no build process)
+- Mobile-first responsive design
+- Semantic HTML5
+- CSS Grid and Flexbox layouts
+- Vanilla JavaScript (no dependencies)
+
+#### Site Structure
+- Main directory: Modern 7-page site (LIVE)
+- shcs-v1/: Complete backup of old 54-page site
+- shcs-v2/: Development copy (can be deleted post-deployment)
+
+---
+
+## [1.0.0] - 2026-02-03
+
+### 🎉 Project Initialization
+
+**Setup:** Cloned repository and analyzed existing site structure
+
+#### Initial State
+- 906 files total in old site
+- 54 HTML pages with individual chant pages
+- Identified 7 core navigation pages in use
+- Multiple CSS/JS files from old template
+
+#### Technology Decision
+- User rejected React + Vite approach (deployment complexity)
+- Chose pure HTML/CSS/JS for easy deployment
+- No build process, no dependencies
+- Optimized for simple FTP upload deployment
+
+#### Backup Strategy
+- Moved all old site files to shcs-v1/ directory
+- Preserved all 54 original pages
+- Kept all images, PDFs, and resources
+- Created safety net for rollback if needed
+
+---
+
+## Deployment Status
+
+**Current Version:** 1.2.0
+**Status:** ✅ Production Ready
+**Total Pages:** 11 (7 main + 4 supporting)
+**Total Files:** HTML (11), CSS (4), JS (1), PDFs (1), Images (92)
+
+### Pre-Deployment Checklist
+- [x] WhatsApp number configured (+447443801223)
+- [x] All 11 pages complete and functional
+- [x] Mandir appeal integrated
+- [x] Chants linking to PDF
+- [x] All forms working
+- [x] Mobile responsive design
+- [x] Google Analytics integrated
+- [ ] Test locally (optional)
+- [ ] Upload to server
+- [ ] Test live site
+- [ ] Verify WhatsApp button
+- [ ] Test forms submission
+- [ ] Test on mobile device
+
+---
+
+## Contact
+
+**Website:** suttonmandir.org
+**Email:** info@sanatan-hcs.org | shcs.sutton@gmail.com
+**WhatsApp:** +447443801223
+**Charity Number:** 1197115
+
+---
+
+## Notes
+
+This is a living document. All significant changes will be added to the top of this file with appropriate version numbers and dates.
