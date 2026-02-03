@@ -120,22 +120,28 @@ Then visit: http://localhost:8000
 ## 📋 Pre-Deployment Checklist
 
 - [x] WhatsApp number updated (+447443801223)
-- [x] All 7 pages complete
+- [x] All 10 pages complete (7 main + 3 supporting)
 - [x] CSS & JS in place
 - [x] Images copied
 - [x] Old site backed up to shcs-v1
 - [x] New site in main directory
+- [x] Membership form (Google Forms) integrated
+- [x] Member list page added
+- [x] Privacy policy page added
+- [x] Contact form configured (mailto:)
 - [ ] Test locally (optional)
 - [ ] Upload to server
 - [ ] Test live site
 - [ ] Verify WhatsApp button works
+- [ ] Test contact form submission
+- [ ] Test membership form submission
 - [ ] Test on mobile phone
 
 ---
 
 ## 🎯 What's Included in New Site
 
-### Pages (7)
+### Main Pages (7)
 1. **index.html** - Landing with hero, news, events, contact form
 2. **about.html** - Vision, mission, objectives
 3. **events.html** - Weekly satsang, 9 festivals, past events
@@ -143,6 +149,11 @@ Then visit: http://localhost:8000
 5. **donate.html** - Bank transfer & PayPal
 6. **news.html** - 3 full articles (Holi 2024, Dussehra 2023, COVID 2021)
 7. **chants.html** - 19 chants with search & filter
+
+### Supporting Pages (3)
+8. **membershipform.html** - Google Forms embedded membership registration
+9. **memberlist.html** - List of all active lifetime members
+10. **privacy.html** - Privacy policy page
 
 ### Features
 - ✅ Modern, minimalistic design
@@ -193,6 +204,7 @@ cp -r shcs-v1/* .
 2. **DEPLOYMENT_GUIDE.md** - Step-by-step deployment
 3. **PROJECT_SUMMARY.md** - Project overview
 4. **COMPLETION_SUMMARY.md** - What was built
+5. **FORMS_GUIDE.md** - How contact & membership forms work (NEW)
 
 ---
 
