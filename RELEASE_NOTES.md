@@ -6,6 +6,36 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ## [1.4.0] - 2026-02-04
 
+### 📿 Enhanced - Complete Chants Modal System
+
+**User Request:** Make all chants use modal with Om chanting sound consistently
+
+#### Changes
+- **Unified Experience**: All 19 chants now open in modal with Om chanting audio
+- **Added 13 New Chant Entries** to chants-data.js:
+  1. Lingashtakam (लिङ्गाष्टकम्) - Full text in modal
+  2. Vishnu Sahasranama (श्री विष्णु सहस्रनाम) - Introduction with PDF download
+  3. Lalita Sahasranama (श्री ललिता सहस्रनाम) - Introduction with PDF download
+  4. Ram Raksha Stotram (राम रक्षा स्तोत्रम्) - Introduction with PDF download
+  5. Mahishasura Mardini (महिषासुरमर्दिनि स्तोत्रम्) - Introduction with PDF download
+  6. Shri Ram Stuti (श्री राम स्तुति) - Introduction with PDF download
+  7. Kala Bhairavashtakam (काल भैरवाष्टकम्) - Introduction with PDF download
+  8. Sankatmochan Hanuman Ashtak (संकट मोचन हनुमानाष्टक) - Introduction with PDF download
+  9. Sunderkand (सुन्दरकाण्ड) - Introduction with PDF download
+  10. Ganesh Bhajan & Aarti (गणेशा भजन एवं आरती) - Introduction with PDF download
+  11. Shivratri Bhajans (शिवरात्रि भजन) - Introduction with PDF download
+  12. Jai Ho (जय हो) - Introduction with PDF download
+
+#### Consistent User Experience
+- **Short Chants**: Full text displayed in modal with Om chanting
+- **Long Chants**: Introduction displayed with "Download PDF" button for complete text
+- **All Chants**: Om chanting audio auto-plays when modal opens
+- Removed all direct PDF links - unified modal interface
+
+**Impact:** Consistent, immersive devotional experience across all chants with Om chanting background audio
+
+---
+
 ### 🔧 Enhanced - Calendar Integration
 
 **User Request:** Improve calendar modal with event URLs and remove emoji icons
