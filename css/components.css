@@ -660,3 +660,73 @@
     font-size: var(--text-base);
   }
 }
+
+/* Urgent Appeal Top Banner */
+.urgent-banner {
+  background: linear-gradient(135deg, #DC2626 0%, #FF6600 100%);
+  color: var(--color-white);
+  padding: var(--space-3) 0;
+  text-align: center;
+  position: relative;
+  z-index: 999;
+}
+
+.urgent-banner a {
+  color: var(--color-white);
+  text-decoration: none;
+  display: block;
+  font-weight: var(--font-semibold);
+  transition: opacity var(--transition-fast);
+}
+
+.urgent-banner a:hover {
+  opacity: 0.9;
+}
+
+.urgent-banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.urgent-badge {
+  background: rgba(255, 255, 255, 0.3);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  animation: pulse-urgent 2s infinite;
+}
+
+@keyframes pulse-urgent {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.urgent-banner-text {
+  font-size: var(--text-base);
+}
+
+.urgent-banner-text strong {
+  font-weight: var(--font-bold);
+}
+
+@media (max-width: 768px) {
+  .urgent-banner {
+    padding: var(--space-2) var(--space-4);
+  }
+
+  .urgent-banner-text {
+    font-size: var(--text-sm);
+  }
+
+  .urgent-badge {
+    font-size: var(--text-xs);
+  }
+}
