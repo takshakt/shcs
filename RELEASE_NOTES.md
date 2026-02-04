@@ -4,6 +4,40 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ---
 
+## [1.3.0] - 2026-02-04
+
+### 🚨 Updated - Urgent Appeal Banner System
+
+**Enhancement:** Added compact urgent appeal banner to all pages with improved visibility
+
+#### Urgent Top Banner
+- Added compact alert banner to all 11 HTML pages (immediately after header)
+- Design: Gradient red-orange background with pulsing "URGENT" badge
+- Text: "URGENT: Bidding Date - Feb 2026 | Funding Gap: £150,000"
+- Clickable banner links to [mandir-appeal.html](mandir-appeal.html)
+- CSS animation: pulse effect on urgent badge
+- Mobile responsive design
+
+#### Date Updates
+- Changed all references from "24 February 2026" to "Feb 2026"
+- Updated in [index.html](index.html), [mandir-appeal.html](mandir-appeal.html)
+- More concise presentation while maintaining urgency
+
+#### Donation Platform Update
+- Replaced PayPal with JustGiving in [donate.html](donate.html)
+- New link: https://www.justgiving.com/campaign/sutton-mandir#supportersList
+- JustGiving provides Gift Aid support and better charity donation tracking
+- Updated card text to explain JustGiving benefits
+
+#### Bank Account Name Correction
+- Fixed bank account name to official format: "SANATAN HINDU CULTUR"
+- Updated in [donate.html](donate.html), [membership.html](membership.html), [mandir-appeal.html](mandir-appeal.html)
+- Ensures accurate bank transfer information
+
+**Impact:** Maximum visibility for urgent appeal across entire website, accurate donation information
+
+---
+
 ## [1.2.0] - 2026-02-03
 
 ### 🚨 Added - Urgent Mandir Appeal
