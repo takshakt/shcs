@@ -6,6 +6,23 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ## [1.4.0] - 2026-02-04
 
+### 🔧 Enhanced - Calendar Integration
+
+**User Request:** Improve calendar modal with event URLs and remove emoji icons
+
+#### Changes
+- Added website event URL (https://suttonmandir.org/events.html) to all calendar invites
+- Included "More info" links in Google and Outlook calendar descriptions
+- Added URL field to iCalendar (.ics) format for Apple/Other calendars
+- Removed emoji icons (📅 📧 🍎) from calendar modal, using text-only labels
+- Cleaner, more professional calendar selection interface
+
+**Impact:** Calendar invites now include direct link back to event page for complete information
+
+---
+
+## [1.4.0] - 2026-02-04
+
 ### 🎉 Added - Upcoming Events Section
 
 **New Feature:** Dedicated upcoming events showcase on events page
