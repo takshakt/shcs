@@ -38,6 +38,66 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ---
 
+### 📿 Enhanced - Chants Modal System with Om Chanting Audio
+
+**Major Enhancement:** Complete interactive chants modal system with devotional background audio
+
+#### Chants Modal Implementation
+- Created modal popup system for displaying full chant text
+- 8 popular chants now use modal instead of PDF links:
+  1. Om Jai Jagdish (ॐ जय जगदीश हरे) - Aarti
+  2. Hanuman Ji Ki Aarti (श्रीहनुमानलला की आरती) - Aarti
+  3. Shri Ramayan Ji Ki Aarti (आरती श्री रामायण जी की) - Aarti
+  4. Shri Hanuman Chalisa (श्री हनुमान चालीसा) - Stotram
+  5. Gayatri Mantra (गायत्री मंत्र) - Mantra
+  6. Mahamritunjaya Mantra (महामृत्युंजय मंत्र) - Mantra
+  7. Bhor Bhai Din Chad Gaya (भोर भई दिन चढ़ गया) - Bhajan
+  8. Jai Shiv Omkara (जय शिव ओंकारा) - Aarti (in data)
+
+#### Om Chanting Background Audio
+- Added peaceful Om chanting audio file (om-chanting.mp3, 193KB)
+- Group vocal chanting creates devotional meditation atmosphere
+- Audio loops continuously while modal is open
+- Play/Pause toggle button with visual feedback
+- Pulse animation on playing state
+- Audio stops automatically when modal closes
+
+#### Modal Features
+- Full chant text display in Devanagari script
+- English transliteration where applicable
+- Meaning/translation for mantras
+- Clean, readable typography with proper spacing
+- Download PDF button for offline access
+- Close on ESC key or outside modal click
+- Prevents body scroll when modal open
+- Mobile responsive design (max-height on small screens)
+- Smooth fadeIn and slideUp animations
+
+#### Technical Implementation
+- Created [js/chants-data.js](js/chants-data.js) - JavaScript object with chant content
+- Modal HTML structure with header, body, footer sections
+- CSS animations in [css/components.css](css/components.css)
+- HTML5 Audio API with fallback error handling
+- Graceful degradation if audio file missing
+
+**Impact:** Enhanced devotional experience with instant chant access, beautiful presentation, and meditative Om chanting background
+
+---
+
+### 🔧 Updated - Banner Position
+
+**User Request:** Move urgent appeal banner above header/navigation
+
+#### Changes
+- Repositioned urgent banner to appear before `<header>` tag on all 11 pages
+- Banner now first element users see (above logo and navigation)
+- Matches layout of dedicated mandir-appeal.html page
+- Ensures maximum visibility for urgent fundraising appeal
+
+**Impact:** Urgent appeal impossible to miss, appears before any navigation
+
+---
+
 ## [1.2.0] - 2026-02-03
 
 ### 🚨 Added - Urgent Mandir Appeal
