@@ -345,6 +345,230 @@ May He liberate us from death for the sake of immortality, even as a cucumber is
 नन्दी भृंगी बेठे गण चारू शिवसुवन ॥
 ॐ जय शिव ओंकारा ॥`,
     pdfPage: 2
+  },
+
+  'lingashtakam': {
+    title: 'Lingashtakam',
+    titleDevanagari: 'लिङ्गाष्टकम्',
+    category: 'Stotram',
+    content: `ब्रह्ममुरारि सुरार्चित लिंगं
+निर्मलभासित शोभित लिंगम् |
+जन्मज दुःख विनाशक लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 1 ||
+
+देवमुनि प्रवरार्चित लिंगं
+कामदहन करुणाकर लिंगम् |
+रावण दर्प विनाशन लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 2 ||
+
+सर्व सुगंध सुलेपित लिंगं
+बुद्धि विवर्धन कारण लिंगम् |
+सिद्ध सुरासुर वंदित लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 3 ||
+
+कनक महामणि भूषित लिंगं
+फणिपति वेष्टित शोभित लिंगम् |
+दक्ष सुयज्ञ निनाशन लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 4 ||
+
+कुंकुम चंदन लेपित लिंगं
+पंकज हार सुशोभित लिंगम् |
+संचित पाप विनाशन लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 5 ||
+
+देवगणार्चित सेवित लिंगं
+भावै-र्भक्तिभिरेव च लिंगम् |
+दिनकर कोटि प्रभाकर लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 6 ||
+
+अष्टदलोपरिवेष्टित लिंगं
+सर्वसमुद्भव कारण लिंगम् |
+अष्टदरिद्र विनाशन लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 7 ||
+
+सुरगुरु सुरवर पूजित लिंगं
+सुरवन पुष्प सदार्चित लिंगम् |
+परात्परं परमात्मक लिंगं
+तत्-प्रणमामि सदाशिव लिंगम् || 8 ||
+
+लिंगाष्टकमिदं पुण्यं यः पठेश्शिव सन्निधौ |
+शिवलोकमवाप्नोति शिवेन सह मोदते ||`,
+    pdfPage: 10
+  },
+
+  'vishnu-sahasranama': {
+    title: 'Shri Vishnu Sahasranama',
+    titleDevanagari: 'श्री विष्णु सहस्रनाम',
+    category: 'Stotram',
+    content: `Shri Vishnu Sahasranama (1000 Names of Lord Vishnu)
+
+This sacred text contains the 1000 names of Lord Vishnu and is one of the most important texts in Hinduism. It is traditionally chanted for peace, prosperity, and spiritual liberation.
+
+Due to its extensive length (1000+ verses), the complete text is available in our comprehensive PDF collection.
+
+The Vishnu Sahasranama is found in the Mahabharata's Anushasana Parva and is revered as one of the most powerful stotrams in Hindu tradition.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 17,
+    longText: true
+  },
+
+  'lalita-sahasranama': {
+    title: 'Shri Lalita Sahasranama',
+    titleDevanagari: 'श्री ललिता सहस्रनाम',
+    category: 'Stotram',
+    content: `Shri Lalita Sahasranama (1000 Names of Goddess Lalita)
+
+This is one of the most sacred texts dedicated to Goddess Lalita (Divine Mother). It contains 1000 names describing the various aspects and qualities of the Goddess.
+
+Due to its extensive length (1000+ verses), the complete text is available in our comprehensive PDF collection.
+
+The Lalita Sahasranama is found in the Brahmanda Purana and is traditionally chanted for divine blessings, spiritual growth, and material prosperity.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 18,
+    longText: true
+  },
+
+  'ram-raksha-stotram': {
+    title: 'Ram Raksha Stotram',
+    titleDevanagari: 'राम रक्षा स्तोत्रम्',
+    category: 'Stotram',
+    content: `Ram Raksha Stotram (Shield of Lord Rama)
+
+This is a powerful protective prayer dedicated to Lord Rama. It is believed to provide divine protection to those who recite it with devotion.
+
+The stotram contains detailed verses describing how Lord Rama protects devotees from all directions and all types of dangers.
+
+Due to its extensive length (200+ verses), the complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 19,
+    longText: true
+  },
+
+  'mahishasura-mardini': {
+    title: 'Mahishasura Mardini Stotram',
+    titleDevanagari: 'महिषासुरमर्दिनि स्तोत्रम्',
+    category: 'Stotram',
+    content: `Mahishasura Mardini Stotram (Hymn to the Slayer of Mahishasura)
+
+This powerful stotram celebrates Goddess Durga's victory over the demon Mahishasura. It is composed in a unique meter and is traditionally chanted during Navratri.
+
+The stotram describes the fierce and compassionate forms of the Goddess and her divine powers.
+
+Due to its extensive length (21 verses with repetitive choruses), the complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 20,
+    longText: true
+  },
+
+  'sunderkand': {
+    title: 'Sunderkand',
+    titleDevanagari: 'सुन्दरकाण्ड',
+    category: 'Stotram',
+    content: `Sunderkand (The Beautiful Chapter)
+
+Sunderkand is the fifth book of the Ramcharitmanas written by Goswami Tulsidas. It describes Hanuman's journey to Lanka and his meeting with Sita.
+
+This chapter is considered extremely auspicious and is traditionally recited on Tuesdays and Saturdays for blessings, removing obstacles, and fulfilling wishes.
+
+Due to its extensive length (60+ pages), the complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 25,
+    longText: true
+  },
+
+  'shri-ram-stuti': {
+    title: 'Shri Ram Stuti',
+    titleDevanagari: 'श्री राम स्तुति',
+    category: 'Stotram',
+    content: `Shri Ram Stuti (Praise of Lord Rama)
+
+This beautiful stotram praises Lord Rama and his divine qualities. It is traditionally recited for protection, blessings, and spiritual growth.
+
+Due to its length, the complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 21,
+    longText: true
+  },
+
+  'kala-bhairavashtakam': {
+    title: 'Kala Bhairavashtakam',
+    titleDevanagari: 'काल भैरवाष्टकम्',
+    category: 'Stotram',
+    content: `Kala Bhairavashtakam (Eight Verses to Kala Bhairava)
+
+This powerful stotram is dedicated to Lord Kala Bhairava, the fierce form of Lord Shiva who is the protector of Kashi (Varanasi).
+
+The complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 22,
+    longText: true
+  },
+
+  'sankatmochan-ashtak': {
+    title: 'Sankatmochan Hanuman Ashtak',
+    titleDevanagari: 'संकट मोचन हनुमानाष्टक',
+    category: 'Stotram',
+    content: `Sankatmochan Hanuman Ashtak (Eight Verses for Removing Troubles)
+
+This powerful ashtak is dedicated to Lord Hanuman in his form as the remover of difficulties and obstacles. It is traditionally chanted for protection and relief from troubles.
+
+The complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 9,
+    longText: true
+  },
+
+  'ganesh-bhajan': {
+    title: 'Ganesh Bhajan & Aarti',
+    titleDevanagari: 'गणेशा भजन एवं आरती',
+    category: 'Bhajan',
+    content: `Ganesh Bhajan & Aarti (Songs and Prayer to Lord Ganesha)
+
+This collection includes beautiful bhajans and aartis dedicated to Lord Ganesha, the remover of obstacles and lord of new beginnings.
+
+Due to its extensive collection, the complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 13,
+    longText: true
+  },
+
+  'shivratri-bhajans': {
+    title: 'Shivratri Bhajans',
+    titleDevanagari: 'शिवरात्रि भजन',
+    category: 'Bhajan',
+    content: `Shivratri Bhajans (Songs for Maha Shivratri)
+
+This collection includes devotional bhajans traditionally sung during Maha Shivratri celebrations, praising Lord Shiva and his divine glory.
+
+The complete collection is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 14,
+    longText: true
+  },
+
+  'jai-ho': {
+    title: 'Jai Ho',
+    titleDevanagari: 'जय हो',
+    category: 'Bhajan',
+    content: `Jai Ho (Victory Be Yours)
+
+A popular devotional bhajan celebrating divine victory and glory.
+
+The complete text is available in our comprehensive PDF collection.
+
+Please download the PDF to access the complete text.`,
+    pdfPage: 15,
+    longText: true
   }
 
   // More chants available in the PDF (pdfs/Aarti_Bhajans.pdf)
