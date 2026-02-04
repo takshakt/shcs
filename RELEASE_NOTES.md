@@ -4,6 +4,37 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ---
 
+## [1.5.0] - 2026-02-04
+
+### 🎨 Added - Powered by Takshak Web Branding
+
+**New Feature:** Professional footer branding for website developer
+
+#### Implementation
+- Added prominent "Powered by Takshak Web" link in footer of all 11 pages
+- Modern, professional design with gradient styling
+- Links to https://takshak.io
+
+#### Design Features
+- **Gradient Background**: Orange accent colors matching site theme
+- **Modern Animations**:
+  - Smooth upward lift on hover
+  - Glowing shadow effect
+  - Animated shimmer across button
+  - Letter spacing expansion on brand name
+- **Gradient Text**: Orange gradient for "Takshak Web" branding
+- **Professional Styling**: Rounded pill shape with border
+- **Mobile Responsive**: Scales appropriately on all screen sizes
+- **Accessibility**: Proper security attributes (rel="noopener noreferrer")
+
+#### Updated Files
+- All 11 HTML pages (index, about, events, membership, donate, news, chants, mandir-appeal, privacy, memberlist, membershipform)
+- [css/components.css](css/components.css) - Added complete powered-by styling with animations
+
+**Impact:** Professional attribution to web developer with beautiful, non-intrusive design that complements the site aesthetic
+
+---
+
 ## [1.4.0] - 2026-02-04
 
 ### 📿 Enhanced - Complete Chants Modal System

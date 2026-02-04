@@ -353,6 +353,89 @@
   font-size: var(--text-sm);
 }
 
+/* Powered by Takshak Web */
+.powered-by {
+  margin-top: var(--space-6);
+  padding-top: var(--space-6);
+}
+
+.powered-by-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-6);
+  background: linear-gradient(135deg, rgba(255, 102, 0, 0.1) 0%, rgba(255, 143, 0, 0.15) 100%);
+  border: 1px solid rgba(255, 102, 0, 0.3);
+  border-radius: var(--radius-full);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.powered-by-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.powered-by-link:hover::before {
+  left: 100%;
+}
+
+.powered-by-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
+  border-color: rgba(255, 102, 0, 0.5);
+  background: linear-gradient(135deg, rgba(255, 102, 0, 0.15) 0%, rgba(255, 143, 0, 0.2) 100%);
+}
+
+.powered-by-text {
+  font-size: var(--text-sm);
+  color: var(--color-gray-300);
+  font-weight: var(--font-medium);
+  transition: color 0.3s ease;
+}
+
+.powered-by-link:hover .powered-by-text {
+  color: var(--color-white);
+}
+
+.powered-by-brand {
+  font-size: var(--text-base);
+  font-weight: var(--font-bold);
+  background: linear-gradient(135deg, #FF6600 0%, #FF8F00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.powered-by-link:hover .powered-by-brand {
+  letter-spacing: 1px;
+  filter: brightness(1.2);
+}
+
+@media (max-width: 640px) {
+  .powered-by-link {
+    padding: var(--space-2) var(--space-4);
+  }
+
+  .powered-by-text {
+    font-size: 0.75rem;
+  }
+
+  .powered-by-brand {
+    font-size: var(--text-sm);
+  }
+}
+
 .social-links {
   display: flex;
   gap: var(--space-4);
