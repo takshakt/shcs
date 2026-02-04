@@ -4,6 +4,68 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ---
 
+## [1.4.0] - 2026-02-04
+
+### 🎉 Added - Upcoming Events Section
+
+**New Feature:** Dedicated upcoming events showcase on events page
+
+#### Event Listings
+- Added prominent "Upcoming Events" section to [events.html](events.html)
+- Events automatically sequenced by date (nearest first)
+- Professional event cards with complete details
+
+#### Maha Shivratri 2026
+- **Date:** Sunday, 15 February 2026, 6:00 PM onwards
+- **Venue:** Carshalton High School for Girls, West Street, Carshalton SM5 2QX
+- **Highlights:**
+  - Rudrabhishek Puja
+  - Dwadash Jyotirlingas Darshan
+  - Cultural Performances
+  - Jal Abhishek
+  - Prasad Distribution
+- Online registration required via WhatsApp
+- Event poster included (shivratri.jpeg)
+
+#### Holi 2026 - Festival of Colors
+- **Date:** Sunday, 8 March 2026, 11:00 AM - 3:00 PM
+- **Venue:** Manor Park, Sutton
+- **Highlights:**
+  - Holika Dahan Ceremony
+  - Unlimited Colors (Gulal)
+  - Live DJ & Dance
+  - Food Stalls
+  - Cultural Performances
+- Event poster included (SHCSHoliFlyer.jpeg)
+
+#### Event Card Features
+- Next event highlighted with red "NEXT EVENT" badge
+- Date prominently displayed
+- Full venue address with map icon
+- Event highlights in bullet format
+- WhatsApp registration/inquiry links
+- Mandir Project fundraising message
+- Mobile responsive cards
+
+**Impact:** Clear visibility of upcoming celebrations, easy registration process, professional event promotion
+
+---
+
+### 🎵 Enhanced - Om Chanting Auto-Play
+
+**User Request:** Make Om chanting play automatically when modal opens
+
+#### Changes
+- Modified `openChantModal()` function to auto-start audio
+- Om chanting now plays immediately upon opening any chant modal
+- Creates immersive devotional atmosphere from the start
+- Users can still pause/resume using toggle button
+- Audio stops automatically when modal closes
+
+**Impact:** Enhanced spiritual experience, seamless audio integration, more engaging chant reading experience
+
+---
+
 ## [1.3.0] - 2026-02-04
 
 ### 🚨 Updated - Urgent Appeal Banner System
