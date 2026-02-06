@@ -8,7 +8,7 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ### 🎨 Fixed - Text Visibility, Contact Information, and Content Updates
 
-**User Request:** Fix white text on light backgrounds, update email address, and remove weekly satsang information
+**User Request:** Fix white text on light backgrounds, update email address, remove weekly satsang information, and add specific upcoming events to landing page
 
 #### Changes
 - **Text Visibility Fix**: Fixed white text on light background in mandir-appeal.html hero section
@@ -22,17 +22,23 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
   - Removed satsang details from all page footers (time, location, venue)
   - Updated meta descriptions and section titles to remove satsang references
   - Updated donate.html and events.html content text
+- **Upcoming Events Cards**: Added specific upcoming event cards on landing page
+  - Replaced generic festival list with detailed event cards
+  - Added Maha Shivratri 2026 card (Feb 15, 2026) with event highlights
+  - Added Holi 2026 card (March 8, 2026) with festival details
+  - Included event images, dates, times, locations, and descriptions
+  - Added "View All Events" button for easy navigation
 
 #### Updated Files
 - [mandir-appeal.html](mandir-appeal.html) - Fixed text color visibility
-- [index.html](index.html) - Removed satsang card and updated section title
+- [index.html](index.html) - Removed satsang, added specific event cards
 - [events.html](events.html) - Updated meta description and hero text
 - [donate.html](donate.html) - Updated temple operations description
 - All 11 HTML pages - Updated email addresses and removed satsang from footers
 - [js/main.js](js/main.js) - Updated email references
 - All markdown documentation files
 
-**Impact:** Improved readability, consistent contact information, and updated content across entire website
+**Impact:** Improved readability, consistent contact information, engaging event promotion, and updated content across entire website
 
 ---
 
