@@ -4,6 +4,34 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ---
 
+## [1.7.0] - 2026-02-06
+
+### 🎟️ Updated - Event Registration Links
+
+**User Request:** Update event registration and booking links
+
+#### Changes
+- **Maha Shivratri 2026 Registration**: Updated to Google Forms link
+  - New link: https://forms.gle/s9rPNJtTMpW7Qz2y9
+  - Updated on both events.html and index.html
+  - Changed WhatsApp link to direct registration form
+- **Holi 2026 Booking**: Updated to Bookerrrr ticketing platform
+  - New link: https://bookerrrr.com/events/mabOKA64Jc17MA3E1A6w
+  - Updated button text from "Get Details" to "Book Tickets"
+  - Updated on both events.html and index.html
+- **Landing Page Enhancement**: Added registration/booking buttons to event cards
+  - Added dual-button layout: "Register Now/Book Tickets" + "Details"
+  - Improved call-to-action for direct event registration
+  - Maintained consistent styling with event colors
+
+#### Updated Files
+- [events.html](events.html) - Updated both event registration links
+- [index.html](index.html) - Added registration buttons to event cards
+
+**Impact:** Streamlined event registration process with direct links to registration forms and ticketing platform
+
+---
+
 ## [1.6.0] - 2026-02-06
 
 ### 🎨 Fixed - Text Visibility, Contact Information, and Content Updates
