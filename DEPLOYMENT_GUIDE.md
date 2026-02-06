@@ -261,7 +261,7 @@ After launch, you can:
 - Use text editor (VS Code recommended)
 
 ### For SHCS Information
-- Email: info@sanatan-hcs.org
+- Email: info@suttonmandir.org.uk
 - Facebook: https://www.facebook.com/shcssutton
 
 ---

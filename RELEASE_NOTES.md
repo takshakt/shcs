@@ -4,6 +4,30 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ---
 
+## [1.6.0] - 2026-02-06
+
+### 🎨 Fixed - Text Visibility and Contact Information
+
+**User Request:** Fix white text on light backgrounds and update email address
+
+#### Changes
+- **Text Visibility Fix**: Fixed white text on light background in mandir-appeal.html hero section
+  - Updated subtitle paragraph to use dark text color (var(--color-charcoal))
+  - Improved readability for "Once in a Lifetime Opportunity to Have a Mandir in Sutton, London"
+- **Email Update**: Changed all email addresses from `shcs.sutton@gmail.com` and `info@sanatan-hcs.org` to `info@suttonmandir.org.uk`
+  - Updated 29 occurrences across all HTML, JS, and MD files
+  - Includes contact forms, footer sections, and documentation
+
+#### Updated Files
+- [mandir-appeal.html](mandir-appeal.html) - Fixed text color visibility
+- All 11 HTML pages - Updated email addresses
+- [js/main.js](js/main.js) - Updated email references
+- All markdown documentation files
+
+**Impact:** Improved readability and consistent contact information across entire website
+
+---
+
 ## [1.5.0] - 2026-02-04
 
 ### 🎨 Added - Powered by Takshak Web Branding
@@ -417,7 +441,7 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 ## Contact
 
 **Website:** suttonmandir.org
-**Email:** info@sanatan-hcs.org | shcs.sutton@gmail.com
+**Email:** info@suttonmandir.org.uk | info@suttonmandir.org.uk
 **WhatsApp:** +447443801223
 **Charity Number:** 1197115
 

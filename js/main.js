@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (isValid) {
         // Create mailto link
-        const mailtoLink = `mailto:info@sanatan-hcs.org?subject=${encodeURIComponent(subject.value || 'Website Enquiry')}&body=${encodeURIComponent(
+        const mailtoLink = `mailto:info@suttonmandir.org.uk?subject=${encodeURIComponent(subject.value || 'Website Enquiry')}&body=${encodeURIComponent(
           `Name: ${name.value}\nEmail: ${email.value}\nPhone: ${phone.value}\n\nMessage:\n${message.value}`
         )}`;
 

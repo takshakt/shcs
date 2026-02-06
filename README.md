@@ -171,7 +171,7 @@ Edit `chants.html` (when created):
 
 The contact form (`index.html#contact`) uses a `mailto:` link:
 - When submitted, opens user's email client
-- Sends to: info@sanatan-hcs.org
+- Sends to: info@suttonmandir.org.uk
 - Includes all form data in email body
 
 **Alternative**: You can integrate with:
@@ -238,7 +238,7 @@ Edit `css/variables.css`:
 ## 🤝 Support
 
 For questions or issues with the website:
-- Email: info@sanatan-hcs.org
+- Email: info@suttonmandir.org.uk
 - Facebook: https://www.facebook.com/shcssutton
 
 ---

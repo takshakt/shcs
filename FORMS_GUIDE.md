@@ -69,7 +69,7 @@ The contact form currently uses the **mailto:** protocol. This is the simplest a
    - Validation runs (checks for valid email, required fields)
    - If valid, their **default email client opens** (like Outlook, Gmail app, Mail)
    - Email is **pre-filled** with:
-     - **To:** info@sanatan-hcs.org
+     - **To:** info@suttonmandir.org.uk
      - **Subject:** Selected subject (General Enquiry, Membership, Events)
      - **Body:** Their name, email, phone, and message
    - User must click "Send" in their email client to actually send
@@ -80,7 +80,7 @@ Located in [index.html:281-324](index.html#L281-L324) and [js/main.js:41-81](js/
 
 ```javascript
 // Form validation and mailto: link creation
-const mailtoLink = `mailto:info@sanatan-hcs.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+const mailtoLink = `mailto:info@suttonmandir.org.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 window.location.href = mailtoLink;
 ```
 
@@ -101,7 +101,7 @@ If you want a more seamless contact form experience, here are free alternatives:
    ```
 3. **Benefits:**
    - User stays on your site
-   - Email sent directly to info@sanatan-hcs.org
+   - Email sent directly to info@suttonmandir.org.uk
    - No email client required
    - Spam protection included
 
@@ -179,14 +179,14 @@ Test the membership form:
 
 1. Test contact form on live site
 2. Test membership form on live site
-3. Verify emails arrive at info@sanatan-hcs.org
+3. Verify emails arrive at info@suttonmandir.org.uk
 4. Check Google Sheets for membership responses
 
 ---
 
 ## 6. Current Email Addresses
 
-All forms send to: **info@sanatan-hcs.org**
+All forms send to: **info@suttonmandir.org.uk**
 
 Make sure this email address is:
 - ✅ Active and monitored
@@ -199,7 +199,7 @@ Make sure this email address is:
 
 | Form | Location | Method | Receives At |
 |------|----------|--------|-------------|
-| Contact Form | index.html | mailto: | info@sanatan-hcs.org |
+| Contact Form | index.html | mailto: | info@suttonmandir.org.uk |
 | Membership Form | membershipform.html | Google Forms | Google Sheets + email |
 
 ---
@@ -214,4 +214,4 @@ If you want to:
 ---
 
 **Last Updated:** February 3, 2026
-**Contact:** info@sanatan-hcs.org
+**Contact:** info@suttonmandir.org.uk
