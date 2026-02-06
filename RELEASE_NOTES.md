@@ -6,9 +6,9 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 
 ## [1.6.0] - 2026-02-06
 
-### 🎨 Fixed - Text Visibility and Contact Information
+### 🎨 Fixed - Text Visibility, Contact Information, and Content Updates
 
-**User Request:** Fix white text on light backgrounds and update email address
+**User Request:** Fix white text on light backgrounds, update email address, and remove weekly satsang information
 
 #### Changes
 - **Text Visibility Fix**: Fixed white text on light background in mandir-appeal.html hero section
@@ -17,14 +17,22 @@ All notable changes to the Sanatan Hindu Cultural Society website will be docume
 - **Email Update**: Changed all email addresses from `shcs.sutton@gmail.com` and `info@sanatan-hcs.org` to `info@suttonmandir.org.uk`
   - Updated 29 occurrences across all HTML, JS, and MD files
   - Includes contact forms, footer sections, and documentation
+- **Weekly Satsang Removal**: Removed all references to weekly satsang information
+  - Removed satsang card from index.html events section
+  - Removed satsang details from all page footers (time, location, venue)
+  - Updated meta descriptions and section titles to remove satsang references
+  - Updated donate.html and events.html content text
 
 #### Updated Files
 - [mandir-appeal.html](mandir-appeal.html) - Fixed text color visibility
-- All 11 HTML pages - Updated email addresses
+- [index.html](index.html) - Removed satsang card and updated section title
+- [events.html](events.html) - Updated meta description and hero text
+- [donate.html](donate.html) - Updated temple operations description
+- All 11 HTML pages - Updated email addresses and removed satsang from footers
 - [js/main.js](js/main.js) - Updated email references
 - All markdown documentation files
 
-**Impact:** Improved readability and consistent contact information across entire website
+**Impact:** Improved readability, consistent contact information, and updated content across entire website
 
 ---
 
