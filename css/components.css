@@ -746,7 +746,7 @@
 
 /* Urgent Appeal Top Banner */
 .urgent-banner {
-  background: linear-gradient(135deg, #DC2626 0%, #FF6600 100%);
+  background: linear-gradient(135deg, #2C5F2D 0%, #FFD700 100%);
   color: var(--color-white);
   padding: var(--space-3) 0;
   text-align: center;
